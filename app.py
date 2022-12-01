@@ -17,7 +17,7 @@ def name_pos_skills():
       position = candidate['position']
       str_skills = candidate['skills']
       if result == '':
-         result += '<pre>\n' + name + '\n' + position + '\n' + str_skills + '\n</pre>'
+         result += '<pre>\n' + name + '\n' + position + '\n' + str_skills + '\n</pre>\n'
       else:
          result += '<pre>\n' + name + '\n' + position + '\n' + str_skills + '\n</pre>\n\n'
 
